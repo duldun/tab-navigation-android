@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.NotificationFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:textColor="@color/blue"
+            android:id="@+id/noti_text"
+            android:layout_marginBottom="10sp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:layout_width="230sp"
+            android:layout_height="50sp"
+            android:id="@+id/btn"
+            android:textSize="15sp"
+            android:textColor="@color/green"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10sp"
+            android:text="@string/view_noti"
+            android:background="@drawable/btn_color"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</LinearLayout>
