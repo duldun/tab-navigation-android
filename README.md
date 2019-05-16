@@ -1,5 +1,5 @@
 # AndroidTab
- Tab View using Fragment in android
+ Tab View using Fragment with baj notification in android
  
  This simple project explains, How to create tab view  using fragment in android.
  How to navigate between tab.
